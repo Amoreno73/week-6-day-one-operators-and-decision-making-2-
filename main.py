@@ -1,5 +1,5 @@
 # ANGEL MORENO PERIOD 7
-
+import math
 # fork the repl.it and create a new git hub repo entitled 
 #Comparison operators
 # Logical operators
@@ -66,16 +66,21 @@ print(my_bool)
 
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
-
-
-
+num1 = 36
+num2 = 17
+my_bool = num1 >= num2
+print(my_bool)
 
 # Comparison Operators Practice  2:
 # Create two variables (num1 and num2):
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
-
+num1 = math.sqrt(25)
+num2 = 5
+my_bool = num1 == num2
+print(my_bool)
+# True
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
@@ -106,7 +111,11 @@ print(my_bool)
 
 # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
 
+num1 = 36
+num2 = 72/2
+num3 = 48
 
+my_bool = 
 
 
 # Logical Operators Practice #2
