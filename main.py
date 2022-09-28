@@ -147,7 +147,7 @@ print(my_bool)
 word1 = "success"
 word2 = "technology"
 sentence = "When something is important enough, you do it even if the odds are against you - Elon Musk"
-my_bool = 
+my_bool = (word1 in sentence) or (word2 in sentence)
 print(my_bool)
 
 
