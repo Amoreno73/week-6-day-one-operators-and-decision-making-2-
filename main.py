@@ -115,7 +115,9 @@ num1 = 36
 num2 = 72/2
 num3 = 48
 
-my_bool = 
+my_bool = num1 > num2 and num1 < num3
+print(my_bool)
+# False
 
 
 # Logical Operators Practice #2
@@ -142,7 +144,11 @@ my_bool =
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
-
+word1 = "success"
+word2 = "technology"
+sentence = "When something is important enough, you do it even if the odds are against you - Elon Musk"
+my_bool = 
+print(my_bool)
 
 
 
