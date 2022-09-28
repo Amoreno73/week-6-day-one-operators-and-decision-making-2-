@@ -131,8 +131,22 @@ print(my_bool)
 
 # Check if num1 is greater than num2, or less than num3. Store the result of that comparison in a variable called my_bool.
 
+# if 5 == 2:
+#   print("it is correct")
+# else:
+#   print("it is not correct")
 
+pet = 'fish'
 
+if pet == 'cat':
+  print("you have cat")
+elif pet == 'dog':
+  print("you have a dog")
+elif pet == 'fish':
+  print("you have a fish")
+else:
+  print("I don't know what animal you have")
+  
 # Logical Operators Practice #3
 # Check if the words:
 
